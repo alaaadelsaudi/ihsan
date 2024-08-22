@@ -1,0 +1,108 @@
+@media (max-width: 768px) {
+    .mosq-part, .mosq-part2 {
+      flex-direction: column; 
+      align-items: center; 
+      text-align: center;
+      
+     
+    }
+  
+    .cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      gap: 10px; 
+    }
+  
+    .button {
+      width: 90%;
+      margin-top: 10px; 
+    }
+    .servicesdiv{
+        flex-direction:row; display:flex;gap:10px;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+    }
+    .philosophy{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .ourcauses{display: flex;justify-content: center;flex-wrap: wrap;
+    .ourcard{width: 100%;margin: 10px;}}
+    .islamic-img{
+     width: 100%;
+     display: flex;justify-content: center;flex-wrap: wrap; }
+     .news{ display: flex;justify-content: center;flex-wrap: wrap;}
+     
+    
+     .label-content{ text-align: center;
+      justify-content: space-between;
+      padding:  15px;
+      flex-wrap: wrap;display: flex;
+  }
+  
+.doyou-img{display: none;
+
+}
+.contact-cards{display: flex;flex-wrap: wrap;}
+
+.person-card {
+  width: 100%;
+  position: relative;
+}
+
+.person-name {
+  top: auto;
+  bottom: 0; 
+  right: 0; 
+  width: 100%; 
+  padding: 5px; 
+}
+
+.span-icon svg {
+  font-size: 20px; 
+}
+.form-section{display: flex;flex-wrap: wrap; 
+  gap: 30px; }
+.form{width: 100%;}
+.map{width: 100%;}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .doyou-img{display: none;}
+  .doyou{width: 100%;}
+  .icon-doyou{width: 100%;}
+  .person-card {
+    width: 45%;
+  }
+  
+ 
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .donations-card {
+    max-width: 45%; 
+  }
+  
+}
+
+
+@media (min-width: 1025px) {
+  .donations-card {
+    max-width: 30%; 
+  }
+}
+  
+@media (max-width: 480px) {
+  .person-name {
+    font-size: 0.9em; 
+  }
+
+  .span-icon svg {
+    font-size: 18px; 
+  }
+}

@@ -1,0 +1,37 @@
+.div-person-card{background-image: url('src/Components/imges/bg_custom.png');width: 100%;height: 100%;padding: 20px;};
+.card-section{width: 80%;margin: auto;display: flex;gap: 20px;flex-wrap: wrap;}
+.person-card{width: 30%;position: relative;};
+.person-name{ background-color: #fff;
+    text-align: center;
+    position: absolute;
+    width: 90%;
+    top: 160px;
+    right: 10px;
+    padding: 10px;
+       h3{font-weight: bold;}
+span{color: gray }}
+.span-icon{display: none;
+svg{color: #8a9535;margin: 5px;;font-size: 25px;}}
+.person-card:hover {.span-icon{display: block;}}
+.learn{background:
+    linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.842)), url('src/Components/imges/Arabic-style-1-1-800x569.png') no-repeat ;
+    background-size: cover;
+    display: flex;
+   
+    margin: 70px 0px;
+    h2{color: white;font-weight: bold;font-size: 40px;}
+    .doyou{width: 50%;text-align: left;margin: 70px;color:wheat;}
+    .icon-doyou{padding-top: 50px;width: 85%;
+    span{color:  #8a9535;font-size: 10px;}
+svg{color: #8a9536;
+    font-size: 70px;padding-right: 10px;
+    font-family: IcoMoon-Free !important;
+   }}
+ 
+}
+.doyou-img{width: 655px;margin: 50px;}
+.doyou-img img{width: 100%;position: relative;top: 50px;}
+.aboutphilosophy{margin: 30px;
+}
+.text h2{color: white;}
+

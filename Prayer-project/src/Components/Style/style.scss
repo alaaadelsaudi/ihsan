@@ -1,0 +1,455 @@
+@import 'media.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    overflow-x: hidden;
+}
+
+.slider {
+    height: 900px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.842)), url('src/Components/imges/photo.jpg') no-repeat center center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    touch-action: manipulation;
+
+    .text {
+        z-index: 9;
+        width: 90%;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    img {
+        height: 50px;
+        width: 100px;
+
+    }
+
+    h5 {
+        padding: 2%;
+        font-family: Philosopher;
+        width: 60%;
+        color: #ffffff;
+        margin: auto;
+        font-size: 45px;
+        top: 0;
+    }
+
+    button {
+        background-color: rgb(247, 157, 5);
+        font-family: Lato;
+        cursor: pointer;
+        width: auto;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        white-space: nowrap;
+        height: 56px;
+        text-transform: capitalize;
+
+        text-align: center;
+        line-height: 17px;
+
+        font-weight: 700;
+        font-size: 17px;
+        border-color: transparent;
+        padding: 0px 25px;
+        margin: 15px;
+        border-radius: 3px;
+        border-width: 0px;
+        border-style: none;
+    }
+}
+
+.mosq-part {
+    width: 100%;
+
+    h2 {
+        font-size: 48px !important;
+        font-weight: bold !important;
+        color: #222222 !important;
+        margin-top: 15px;
+        margin-bottom: 10px
+    }
+
+    h4 {
+        font-size: 20px;
+        color: #b23b00dc
+    }
+
+    .cards {
+        display: flex;
+    }
+
+    .card {
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 25%;
+        border: none;
+    }
+
+    .span {
+        text-align: center;
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 4px;
+        line-height: 1;
+    }
+
+    .para {
+        text-align: center;
+        color: #333333;
+        opacity: 0.7;
+    }
+
+    button {
+        background: #8a9535;
+        margin-top: 30px;
+        border-radius: 2%;
+        padding: 17px 35px;
+        color: white;
+        border: none;
+        font-size: 15px;
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+
+    }
+
+}
+
+.mosq-part2 {
+    background: #ffffff;
+    box-shadow: 0px 0px 35px -21px rgba(0, 0, 0, 0.7);
+    width: 100%;
+
+    .prayer-timing {
+        background-color: #b23a00;
+        text-align: center;
+        padding: 25px 0;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        position: relative;
+
+        span {height: 20px;
+            font-size: 28px;
+            color: #ffffff;
+        }
+    }
+
+    .date {
+        margin-top: 20px;
+        text-align: center;
+
+        span {
+            display: block;
+            padding: 5px;
+        }
+    }
+}
+
+.icon {
+   
+    padding: 10px;
+
+}
+
+.back {
+    background: linear-gradient(135deg, rgba(169, 184, 195, 0.527) 0%, rgba(238, 238, 238, 0.356) 100%);
+}
+
+.button:hover {
+    background-color: rgb(247, 157, 5);
+}
+
+.servicesdiv {
+    direction: row;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px
+}
+
+.center-services {
+    background-image: url(src/Components/imges/bg1-1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2 {
+        font-size: 48px ;
+        font-weight: bold ;
+        color: #222222 ;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    h4 {
+        font-size: 25px ;
+        color: #b23b00dc;
+        font-weight: 200;
+    }
+
+    .CenterCard {
+        width: 100%;
+        text-align: center;
+        background: #ffffff;
+        padding-left: 25px;
+        padding-right: 25px;
+        box-shadow: 0px 0px 35px -21px rgba(0, 0, 0, 0.7);
+
+        .content-card {
+            padding: 10px;
+        }
+
+        .icon-card {
+            font-size: 50px;
+            color: #8a9535;
+        }
+
+        .CenterCard:hover {
+            background-color: #8a9535;
+            color: white;
+
+            .icon-card {
+                color: white;
+            }
+        }
+    }
+}
+
+.icon-line {
+    width: 120px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    ;
+
+
+    background-image: url(src/Components/imges/ornament_after_post.png);
+}
+
+.title {
+    h2 {
+        font-size: 48px;
+        font-weight: bold;
+        color: #222222;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    h4 {
+        font-size: 25px;
+        color: #b23b00dc;
+        font-weight: 200;
+    }
+}
+
+.icon-islamic {
+    background: url(https://ihsan.tm-colors.info/wp-content/themes/ihsan/assets/css/images/bg234.png) no-repeat 7px 0;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+
+
+}
+
+.ourcard {
+    position: relative;
+    width: 45%;
+    text-align: center;
+
+    .our-card-img {
+
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .card-img-content {
+        position: absolute;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.308) 0, rgba(0, 0, 0, 0.63) 100%);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: '';
+        opacity: .8;
+
+        h4 {
+            position: absolute;
+            padding: 80px 0px;
+            bottom: 0;
+            z-index: 1;
+            width: 100%;
+            font-size: 28px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+
+    }
+}
+
+.titletow {
+    h2 {
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 5px;
+
+        font-weight: 700;
+    }
+
+    h4 {
+        font-size: 20px;
+        color: white;
+
+    }
+}
+
+.content-news {
+    h3:hover {
+        color: #8a9535;
+        transition: color 200ms linear;
+    }
+}
+
+
+.donation-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.donations-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+    margin: 10px;
+}
+
+
+.donations {
+    padding: 15px;
+
+    h4 {
+        font-weight: 600;
+    }
+
+    button {
+        background-color: transparent;
+        border: 1px solid #8a9536 !important;
+        color: inherit;
+        margin-top: 30px;
+        color: #b23a00 !important;
+        font-weight: 600;
+        padding: 14px 19px;
+    }
+}
+
+.rang {
+    position: relative;
+    height: 15px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.rang::before {
+    width: 110.9189189189px;
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 15px;
+    background: #8a9535;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.rang::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: " ";
+    width: 75%;
+    height: 15px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    border-radius: 25px;
+    border: 1px #eee solid
+}
+.contact-cards{display: flex;margin: 30px auto;padding: 30px;}
+.contact-card {
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل لتحسين العمق */
+    width: 100%;
+    max-width: 350px; 
+    margin: 15px auto; 
+    padding: 20px; 
+   
+  }
+  
+  
+  .contact-card-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+   
+    border-radius: 8px; 
+   
+  }
+  
+  .contact-card-title {
+    display:inline-flex ;
+  
+    margin-bottom: 20px; 
+    border-bottom: 2px dotted #8a9536; 
+    padding-bottom: 10px; }
+  
+  .contact-card-title img {
+    width: 46px;
+    margin-bottom: 10px; 
+    margin-right: 15px;
+  }
+  
+  .contact-card-title h3 {
+    font-weight: 500;
+    color: #8a9536; 
+    margin: 0; }
+  
+.form-section{width: 90%;margin: auto;display: flex; 
+    gap: 30px; 
+.form{margin: 20px;
+   width: 40%;}
+   input,textarea{display: block;width: 100%;margin: 10px;height: 50px;border-radius: 5px;padding: 10px;border:rgba(0, 0, 0, 0.322) 0.5px solid;}
+   textarea{height: 150px}
+   button{width: 150px;height: 50px;border: none;background-color:#f79d05;margin: 10px;color: white;border-radius: 5px;}
+}
+.map{width: 50%;}
+.error{color: red;}

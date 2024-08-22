@@ -1,0 +1,82 @@
+
+.photo {
+    padding: 70px 0;
+    margin-top: 40px;
+  }
+  
+  .islamic-photo-div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .islamic-photo,
+  .large-photo {
+    box-sizing: border-box;
+    padding: 10px;
+ 
+  }
+  
+  .islamic-photo {
+    width: 20%;
+    div{margin: 10px;}
+  }
+  
+  .large-photo {
+    width: 50%;
+  }
+  
+  .islamic-photo img,
+  .large-photo img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .islamic-photo img {
+    height: 200px;
+  }
+  
+  .large-photo img {
+    height: 420px;
+  }
+  
+  .gallery-row {width: 90%;margin: auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    width: 49%;
+    height: 250px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .islamic-photo,
+    .large-photo {
+      width: 100%;
+    
+    }
+  
+    .islamic-photo img {
+      height: 150px;
+      
+    }
+  
+    .large-photo img {
+      height: 300px;
+    }
+    .gallery-item {
+        width: 100%;
+        height: 250px;
+      }
+      
+  }

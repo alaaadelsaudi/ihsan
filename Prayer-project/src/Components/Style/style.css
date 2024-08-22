@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+.slider {
+  height: 90vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.842)), url("src/Components/imges/photo.jpg") no-repeat center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  touch-action: manipulation;
+}
+.slider .text {
+  z-index: 9;
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+.slider img {
+  height: 50px;
+  width: 100px;
+}
+.slider h5 {
+  padding: 2%;
+  font-family: Philosopher;
+  width: 60%;
+  color: #ffffff;
+  margin: auto;
+  font-size: 45px;
+  top: 0;
+}
+.slider button {
+  background-color: rgb(247, 157, 5);
+  font-family: Lato;
+  cursor: pointer;
+  width: auto;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  white-space: nowrap;
+  height: 56px;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 17px;
+  font-weight: 700;
+  font-size: 17px;
+  border-color: transparent;
+  padding: 0px 25px;
+  margin: 15px;
+  border-radius: 3px;
+  border-width: 0px;
+  border-style: none;
+}
+
+.mosq-part {
+  width: 100%;
+}
+.mosq-part h2 {
+  font-size: 48px !important;
+  font-weight: bold !important;
+  color: #222222 !important;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.mosq-part h4 {
+  font-size: 20px !important;
+  color: rgba(178, 59, 0, 0.862745098);
+}
+.mosq-part .cards {
+  display: flex;
+}
+.mosq-part .card {
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 25%;
+}
+.mosq-part .span {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  line-height: 1;
+}
+.mosq-part .para {
+  text-align: center;
+  color: #333333;
+  opacity: 0.7;
+}
+.mosq-part button {
+  background: #8a9535;
+  margin-top: 30px;
+  border-radius: 2%;
+  padding: 17px 35px;
+  color: white;
+  border: none;
+  font-size: 15px;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.mosq-part2 {
+  background: #ffffff;
+  box-shadow: 0px 0px 35px -21px rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+.mosq-part2 .prayer-timing {
+  background-color: #b23a00;
+  text-align: center;
+  padding: 25px 0;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: relative;
+}
+.mosq-part2 .prayer-timing span {
+  font-size: 28px;
+  color: #ffffff;
+}
+.mosq-part2 .date {
+  margin-top: 20px;
+  text-align: center;
+}
+.mosq-part2 .date span {
+  display: block;
+  padding: 5px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back {
+  background: linear-gradient(135deg, rgba(169, 184, 195, 0.527) 0%, rgba(238, 238, 238, 0.356) 100%);
+}
+
+.button:hover {
+  background-color: rgb(247, 157, 5);
+}
+
+.center-services {
+  background-image: url(src/Components/imges/bg1-1-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center-services h2 {
+  font-size: 48px !important;
+  font-weight: bold !important;
+  color: #222222 !important;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.center-services h4 {
+  font-size: 25px !important;
+  color: rgba(178, 59, 0, 0.862745098);
+  font-weight: 200;
+}
+.center-services .CenterCard {
+  width: 100%;
+  text-align: center;
+  background: #ffffff;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-shadow: 0px 0px 35px -21px rgba(0, 0, 0, 0.7);
+}
+.center-services .CenterCard .content-card {
+  padding: 10px;
+}
+.center-services .CenterCard .icon-card {
+  font-size: 50px;
+  color: #8a9535;
+}
+.center-services .CenterCard .icon-line {
+  width: 120px;
+  width: 120px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+  background-image: url(src/Components/imges/ornament_after_post.png);
+}
+.center-services .CenterCard:hover {
+  background-color: #8a9535;
+  color: white;
+}
+.center-services .CenterCard:hover .icon-card {
+  color: white;
+}
+
+.title h2 {
+  font-size: 48px !important;
+  font-weight: bold !important;
+  color: #222222 !important;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.title h4 {
+  font-size: 25px !important;
+  color: rgba(178, 59, 0, 0.862745098);
+  font-weight: 200;
+}/*# sourceMappingURL=style.css.map */

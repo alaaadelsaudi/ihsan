@@ -1,0 +1,87 @@
+@import './src/Components/Style/media.scss';
+.footer {background:
+  linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.842)), url('src/Components/imges/938430448-Ornamental-Arabic-lantern-with-burning-candle-glowing-at-night-and-glittering-golden-bokeh-lights.-Festive-greeting-card-invitation-for-Muslim-holy-month-Ramad.jpg') no-repeat ;
+  background-size: cover;
+  padding: 30px 0;
+  color: white;
+  font-size: 14px;
+  
+  .footer-content {
+   text-align: center;
+    justify-content: space-between;
+    padding:  15px;
+
+    .footer-logo {
+     padding: 40px;
+      img {
+        width: 150px;
+        height: auto;
+      }
+      p {width: 70%;
+        margin: auto ;
+        font-size: 16px;
+      }
+    }
+.label-content{display: flex;padding: 10px;text-align: center;margin: auto;width: 80%;height: 70px;
+  .input-div{width: 50%;display: flex;border-radius: 5px;}
+  label{margin-top: 10px;font-size: larger;font-weight: bold;padding: 5px;}
+input{background-color: #7777777a;padding-left: 5px;
+  width: 100%;
+  height: 58px;
+  border: none;
+  border-radius: 5px;
+}
+button{background-color: #8a9535;border: none;color: white;font-weight:600;border-radius: 5px;
+width: 120px;
+height: 58px;
+transition: all 0.2s ease-in;
+}
+button:hover{background: #f79d05}
+}
+    .footer-links,
+    .footer-contact,
+    .footer-social {
+     
+      h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+          margin-bottom: 5px;
+          a {
+            color: #007bff;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+     }
+  }
+
+  .footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    p {
+      margin: 0;
+      font-size: 12px;
+    }
+  }
+}
+.media{display: flex;margin: 10px;flex-direction: row-reverse;}
+.media-icon {padding: 4px 8px;
+  margin: 0 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+  background-color: #333333;;
+  font-weight: bold;
+}
