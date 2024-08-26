@@ -6,7 +6,7 @@ export default function Title({h2,img,h4}) {
          <div style={{textAlign:'center'}}>
          
          <div>
-         <div className="icon-mosq">
+         <div className="icon-mosq" style={{margin:"10px"}}>
            {img}
          </div>
          <h2> {h2} </h2>  

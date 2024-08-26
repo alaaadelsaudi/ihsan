@@ -7,20 +7,23 @@ import IslamicPhoto from './IslamicPhoto';
 import ISlamicPhilosophy from './ISlamicPhilosophy';
 import OurCauses from './OurCauses';
 import News from './News';
+
+import Swiper from './Swiper';
 export default function Home() {
 
   
   return (
     <>
-      <Slider/>
+       <Slider/>
       <Prayer/>
       <CenterServieces/>
+      <Swiper/>
+ 
     <ISlamicPhilosophy/>
      <OurCauses/>
    <IslamicPhoto/>
-    <News/>  
-    {/* <Swiper/> */}
- 
+    <News/>   
+   
     </>
   );
  }
