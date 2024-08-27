@@ -4,6 +4,7 @@ import { Container } from '@mui/material';
 import CenterCard from './CenterCard';
 import { PiVideoBold } from "react-icons/pi";
 import { LiaMosqueSolid } from "react-icons/lia";
+import bg from '../imges/bg1-1-1.jpg'
 import logomosq from '../imges/logo_mosq-1.png';
 import gravestone from "../imges/gravestone.png";
 import  Quran from '../imges/quran (2).png';
@@ -11,7 +12,7 @@ import donation from '../imges/donation (2).png';
 import manAndWoman from'../imges/man-and-woman (3).png'
 export default function CenterServieces() {
   return (
-    <div style={{padding:'70px 0px',marginTop:'40px'}} className='center-services'>
+    <div style={{padding:'70px 0px',marginTop:'40px',backgroundImage:` url(${bg})`}} className='center-services'>
       
           <Title img={ <img src={logomosq} alt=""/>}
 h2={'Islamic Center Services'} h4={'Ethical & Moral Beliefs That Guides To The Straight Path!'}/>

@@ -9,7 +9,7 @@ import ramadan from '../imges/-Ramadan-background.-Ramadan-kareem-1-430x260 (1).
 import muslimPrayer from '../imges/The-muslim-prayer-for-god-in-the-mosque-1-430x260.jpg';
 import arabicBiryani from '../imges/arabic-biryani-cuisine-1161468-1-430x260.jpg';
 import ancientArchitecture from '../imges/ancient-architecture-asia-532922-1-430x260.jpg';
-
+import bg from "../imges/Arabic-style-1-1-800x569.png"
 const swipreData=[
     {
     img:ramadan,
@@ -47,7 +47,7 @@ export default function Swiper()
   };
    
     return(
-        <div className="swiper-background">
+        <div className="swiper-background" style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.842)), url(${bg})`}}>
            
     <Title  img={ <img src={logomosq} alt=""/>}
     h2={'Upcoming Islamic Events'} h4={'Ethical & Moral Beliefs That Guides To The Straight Path!'}/>

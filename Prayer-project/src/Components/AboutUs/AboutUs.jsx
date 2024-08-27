@@ -13,7 +13,9 @@ import kaaba from "../imges/kaaba (1).png";
 import manAndWoman from "../imges/man-and-woman (1).png";
 import donation  from "../imges/donation (1).png";
 import mosque from "../imges/mosque.png";
-import islam from "../imges/islam (1).png"
+import islam from "../imges/islam (1).png";
+import logo from '../imges/logo_mosq-1.png';
+import bg from '../imges/Arabic-style-1-1-800x569.png'
 export default function AboutUs() {
   return (
     <div>
@@ -23,10 +25,10 @@ export default function AboutUs() {
       
         <AboutSlider/>
       </div>
-      <div className='learn'>
+      <div className='learn' style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.842)), url(${bg})`}}>
 <div className='doyou'>
   <div className="icon-doyou">
-    <img src="src/Components/imges/logo_mosq-1.png" alt="" />
+    <img src={logo} alt="" />
     <h2>A Place To Pray And A Community Center To Learn</h2>
     
     <div style={{display:'flex'}}>
