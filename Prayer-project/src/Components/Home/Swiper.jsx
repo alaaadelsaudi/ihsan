@@ -5,7 +5,7 @@ import React from 'react';
 import "slick-carousel/slick/slick-theme.css";
 import Title from './Title';
 import logomosq from '../imges/logo_mosq-1.png';
-import ramadan from '../imges/-Ramadan-background.-Ramadan-kareem-1-430x260 (1).jpg';
+import ramadan from '../imges/ramadan.jpg';
 import muslimPrayer from '../imges/The-muslim-prayer-for-god-in-the-mosque-1-430x260.jpg';
 import arabicBiryani from '../imges/arabic-biryani-cuisine-1161468-1-430x260.jpg';
 import ancientArchitecture from '../imges/ancient-architecture-asia-532922-1-430x260.jpg';
