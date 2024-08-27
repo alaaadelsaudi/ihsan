@@ -3,7 +3,9 @@ import FirstSection from '../sections/FirstSection';
 import emailjs from '@emailjs/browser';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-
+import map from '../imges/map.png';
+import phone from '../imges/phone-book.png';
+import mail from '../imges/mail.png';
 const validationSchema = Yup.object({
   name: Yup.string().required('Name is required'),
   email: Yup.string().email('Invalid email address').required('Email is required'),
@@ -35,7 +37,7 @@ export default function Contactus() {
             <div className='contact-card-icon'>
               <div className='contact-card-title'>
                 <span>
-                  <img src="src/Components/imges/map.png" alt="" />
+                  <img src={map} alt="" />
                 </span>
                 <h3>Our Location</h3>
               </div>
@@ -50,7 +52,7 @@ export default function Contactus() {
             <div className='contact-card-icon'>
               <div className='contact-card-title'>
                 <span>
-                  <img src="src/Components/imges/phone-book.png" alt="" />
+                  <img src={phone} alt="" />
                 </span>
                 <h3>Phone us</h3>
               </div>
@@ -65,7 +67,7 @@ export default function Contactus() {
             <div className='contact-card-icon'>
               <div className='contact-card-title'>
                 <span>
-                  <img src="src/Components/imges/mail.png" alt="" />
+                  <img src={mail} alt="" />
                 </span>
                 <h3>Email us</h3>
               </div>

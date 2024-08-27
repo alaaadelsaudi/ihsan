@@ -1,13 +1,13 @@
 import React from 'react'
  import { NavLink, Outlet } from 'react-router-dom';
- import '../Navbar/navbar.scss'
- 
+ import '../Navbar/navbar.scss';
+ import logo from '../../imges/logox2.png';
 export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
   <div className="logo me-4 " >
-       <img src="src\Components\imges\logox2.png" alt="" style={{width:"100%",height:'100%'}} />
+       <img src={logo} alt="" style={{width:"100%",height:'100%'}} />
    </div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

@@ -7,7 +7,7 @@ import moment from 'moment';
 import { Container } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 import Card from './card';
-
+import logomosq from '../imges/logo_mosq-1.png'
 export default function Prayer() {
     const [prayerTimes, setPrayerTimes] = useState({});
 
@@ -42,7 +42,7 @@ export default function Prayer() {
                 <Grid item xs={12} md={8}>
                     <div className='mosq-part'>
                         <div>
-                            <img src="src/Components/imges/logo_mosq-1.png" alt="Mosque Logo" />
+                            <img src={logomosq} alt="Mosque Logo" />
                         </div> 
                         <div>
                             <h2>Welcome to Ihsan</h2>

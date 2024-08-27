@@ -5,13 +5,17 @@ import './Footer.scss';
 import { TiSocialTwitter } from "react-icons/ti";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { SlSocialInstagram } from "react-icons/sl";
+import backgroundfooter from '../../imges/938430448-Ornamental-Arabic-lantern-with-burning-candle-glowing-at-night-and-glittering-golden-bokeh-lights.-Festive-greeting-card-invitation-for-Muslim-holy-month-Ramad.jpg'
+import logo from '../../imges/logo-w2.png'
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer"  style={{
+      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.842)), url(${backgroundfooter})`, backgroundRepeat: 'no-repeat',
+     backgroundSize:'cover'}}>
       
       <div className="footer-content">
         <div className="footer-logo">
-          <img src="src/Components/imges/logo-w2.png" alt="Logo" />
+          <img src={logo} alt="Logo" />
           <p>Islam is the most dolore magna aliqua popular lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
         </div>
 

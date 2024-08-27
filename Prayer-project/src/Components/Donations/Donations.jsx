@@ -1,10 +1,16 @@
 import React from 'react';
 import Title from '../Home/Title';
 import FirstSection from '../sections/FirstSection';
-
+import logoMosq from '../imges/logo_mosq-1.png';
+import causes001 from '../imges/causes001.jpg';
+import causes002 from '../imges/causes002.jpg';
+import causes003 from '../imges/causes003.jpg';
+import causes004 from '../imges/causes004.jpg';
+import causes005 from '../imges/causes005.jpg';
+import causes006 from '../imges/causes006.jpg';
 const donationCards = [
   {
-    imgSrc: "src/Components/imges/causes001.jpg",
+    imgSrc: causes001,
     title: "Help the poor",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
     percentage: "57%",
@@ -12,7 +18,7 @@ const donationCards = [
     goal: "$150,000"
   },
   {
-    imgSrc: "src/Components/imges/causes002.jpg",
+    imgSrc: causes002,
     title: "Healthcare Facility",
     description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit...",
     percentage: "96%",
@@ -20,7 +26,7 @@ const donationCards = [
     goal: "$140,000"
   },
   {
-    imgSrc: "src/Components/imges/causes003.jpg",
+    imgSrc: causes003,
     title: "Monthly Food Items",
     description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit...",
     percentage: "32%",
@@ -28,7 +34,7 @@ const donationCards = [
     goal: "$300,000"
   },
   {
-    imgSrc: "src/Components/imges/causes004.jpg",
+    imgSrc: causes004,
     title: "Build The Mosques",
     description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit...",
     percentage: "31%",
@@ -36,7 +42,7 @@ const donationCards = [
     goal: "$3.45 million"
   },
   {
-    imgSrc: "src/Components/imges/causes005.jpg",
+    imgSrc: causes005,
     title: "Hajj For Elderly",
     description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit...",
     percentage: "71%",
@@ -44,7 +50,7 @@ const donationCards = [
     goal: "$50,000"
   },
   {
-    imgSrc: "src/Components/imges/causes006.jpg",
+    imgSrc: causes006,
     title: " Books For Children ",
     description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit...",
     percentage: "48%",
@@ -82,7 +88,7 @@ const Donation = () => {
   return (<>
    <FirstSection titlepage={'Our Causes'} spanpage={'Our Causes'}/>
     <div style={{padding:'70px 0px',marginTop:'40px'}} className='photo'>
-    <Title img={ <img src="src/Components/imges/logo_mosq-1.png" alt=""/>}
+    <Title img={ <img src={logoMosq} alt=""/>}
     h2={'Support Our Causes'} h4={'Give charity without delay, for it stands in the way of calamity!'}/>
     </div>
     <div className="donation-cards-container" style={{display:'flex',justifyContent:'space-around',flexWrap:'wrap'}}>

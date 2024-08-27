@@ -6,7 +6,14 @@ import { ImQuotesLeft } from "react-icons/im";
 import Iconphilosophy from '../Home/Iconphilosophy';
 import IconPhliosophy2  from '../Home/IconPhliosophy2';
 import AboutSlider from './AboutSlider';
-
+import manImg from "../imges/man-1.png";
+import muslim from "../imges/80644muslim-faith-1.png";
+import quran from "../imges/quran (3).png";
+import kaaba from "../imges/kaaba (1).png";
+import manAndWoman from "../imges/man-and-woman (1).png";
+import donation  from "../imges/donation (1).png";
+import mosque from "../imges/mosque.png";
+import islam from "../imges/islam (1).png"
 export default function AboutUs() {
   return (
     <div>
@@ -32,7 +39,7 @@ export default function AboutUs() {
   </div>
 </div>
 <div className='doyou-img'>
-  <img src="src/Components/imges/man-1.png" alt="" />
+  <img src={manImg} alt="" />
 </div>
         </div>
         <div className='aboutphilosophy'>
@@ -43,29 +50,29 @@ h2={'Islamic Philosophy'} />
 <div  >
 
   <Iconphilosophy title={'Quran – The Book'} text={'Less overheard forward some drink past this ipsum free immodest less aim ipsum amet consecter elit adipisicing.'}
-  imge={ <img style={{marginTop:'17px'}} src="src/Components/imges/quran (3).png" alt="" />}/>
+  imge={ <img style={{marginTop:'17px'}} src={quran} alt="" />}/>
   <Iconphilosophy title={'Islamic Knowledge'} text={'Less overheard forward some drink past this ipsum free immodest less aim ipsum amet consecter elit adipisicing.'}
-  imge={ <img style={{marginTop:'30px'}} src="src/Components/imges/kaaba (1).png" alt="" />}/>
+  imge={ <img style={{marginTop:'30px'}} src={kaaba} alt="" />}/>
   <Iconphilosophy title={'Muslim Community'} text={'Less overheard forward some drink past this ipsum free immodest less aim ipsum amet consecter elit adipisicing.'}
-  imge={ <img style={{marginTop:'30px'}} src="src/Components/imges/man-and-woman (1).png" alt="" />}/>
+  imge={ <img style={{marginTop:'30px'}} src={manAndWoman} alt="" />}/>
 </div>
 
 <div style={{width: '520px',display:'flex',alignItems:'center',justifyContent:'center'}}>
-  <img style={{width:'100%',height:'auto',verticalAlign: 'middle'}}src="src/Components/imges/80644muslim-faith-1.png" alt="" />
+  <img style={{width:'100%',height:'auto',verticalAlign: 'middle'}}src={muslim} alt="" />
 </div>
 <div className='revers'>
   <IconPhliosophy2 
   title={'Help The Poor'}
  text={'Less overheard forward some drink past this ipsum free immodest less aim ipsum amet consecter elit adipisicing.'}
-  imge={ <img style={{marginTop:'17px'}} src="src/Components/imges/donation (1).png" alt="" />}/>
+  imge={ <img style={{marginTop:'17px'}} src={donation} alt="" />}/>
   <IconPhliosophy2 
   title={'The Spirituality'}
    text={'Less overheard forward some drink past this ipsum free immodest less aim ipsum amet consecter elit adipisicing.'}
-  imge={ <img style={{marginTop:'10px'}} src="src/Components/imges/mosque.png" alt="" />}/>
+  imge={ <img style={{marginTop:'10px'}} src={mosque} alt="" />}/>
   <IconPhliosophy2 
   title={'Find Your Inner'}
    text={'Less overheard forward some drink past this ipsum free immodest less aim ipsum amet consecter elit adipisicing.'}
-  imge={ <img style={{marginTop:'15px'}} src="src/Components/imges/islam (1).png" alt="" />}/>
+  imge={ <img style={{marginTop:'15px'}} src={islam} alt="" />}/>
 </div>
 </div>
         </div>
