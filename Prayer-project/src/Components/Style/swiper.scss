@@ -9,3 +9,16 @@ h2{color: white ;}}
 h3{color: white;font-size: 30px;font-weight:600;font-family:'Times New Roman', Times, serif;}}
 h3:hover{color: rgb(247, 157, 5);}
 
+@media (max-width: 480px) {
+  .swiper-data {
+      width: 100%; 
+      padding: 10px; 
+  }
+  .swiper-data h3 {font-size: 20px;
+  }
+
+  p {
+      font-size: 10px; 
+      margin: 6px 0; 
+  }
+}

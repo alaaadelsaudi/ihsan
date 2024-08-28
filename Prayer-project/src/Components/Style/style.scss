@@ -13,12 +13,12 @@ body {
 }
 
 .slider {
-    height: 600px;;
+    height: 700px;
     width: 100%;
-   
     position: relative;
     touch-action: manipulation;
-
+    background-position: center;
+  
     .text {
         z-index: 9;
         width: 90%;
@@ -28,48 +28,45 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 5px;
-    }
-
-    img {
+        color: #ffffff;
+  
+      img {
         height: 50px;
         width: 100px;
-
-    }
-
-    h5 {
+      }
+  
+      h5 {
         padding: 2%;
-        font-family: Philosopher;
-        width: 60%;
+        font-family: 'Philosopher', sans-serif;
         color: #ffffff;
-        margin: auto;
-        font-size: 45px;
-        top: 0;
-    }
-
-    button {
+        margin: 20px auto; 
+        font-size: 2.5rem; 
+        max-width: 80%; 
+      }
+  
+      button {
         background-color: rgb(247, 157, 5);
-        font-family: Lato;
+        font-family: 'Lato', sans-serif;
         cursor: pointer;
-        width: auto;
         color: rgb(255, 255, 255);
         text-decoration: none;
         white-space: nowrap;
         height: 56px;
         text-transform: capitalize;
-
         text-align: center;
-        line-height: 17px;
-
+        line-height: 56px; 
         font-weight: 700;
-        font-size: 17px;
-        border-color: transparent;
-        padding: 0px 25px;
+        font-size: 1rem; 
+        border: none;
+        padding: 0 25px;
         margin: 15px;
         border-radius: 3px;
-        border-width: 0px;
-        border-style: none;
+      }
     }
-}
+  
+    
+  }
+  
 
 .mosq-part {
     width: 100%;
@@ -89,22 +86,30 @@ body {
 
     .cards {
         display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-around;
     }
 
     .card {
+      
+       
         box-sizing: border-box;
-        padding-left: 15px;
-        padding-right: 15px;
-        width: 25%;
+        padding: 15px;
+        width: 24%; 
         border: none;
+        display: flex;
+       
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
     }
 
-    .span {
-        text-align: center;
-        font-size: 48px;
+    .span { font-size: 30px;
         font-weight: bold;
         margin-bottom: 4px;
         line-height: 1;
+        margin: 20px 0; 
+    line-height: 1.2;
     }
 
     .para {
@@ -253,7 +258,7 @@ body {
     h4 {
         font-size: 25px;
         color: #b23b00dc;
-        font-weight: 200;
+        
     }
 }
 
@@ -399,54 +404,3 @@ body {
     border-radius: 25px;
     border: 1px #eee solid
 }
-.contact-cards{display: flex;margin: 30px auto;padding: 30px;}
-.contact-card {
-    background-color: #fff; 
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل لتحسين العمق */
-    width: 100%;
-    max-width: 350px; 
-    margin: 15px auto; 
-    padding: 20px; 
-   
-  }
-  
-  
-  .contact-card-icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    padding: 20px;
-   
-    border-radius: 8px; 
-   
-  }
-  
-  .contact-card-title {
-    display:inline-flex ;
-  
-    margin-bottom: 20px; 
-    border-bottom: 2px dotted #8a9536; 
-    padding-bottom: 10px; }
-  
-  .contact-card-title img {
-    width: 46px;
-    margin-bottom: 10px; 
-    margin-right: 15px;
-  }
-  
-  .contact-card-title h3 {
-    font-weight: 500;
-    color: #8a9536; 
-    margin: 0; }
-  
-.form-section{width: 90%;margin: auto;display: flex; 
-    gap: 30px; 
-.form{margin: 20px;
-   width: 40%;}
-   input,textarea{display: block;width: 100%;margin: 10px;height: 50px;border-radius: 5px;padding: 10px;border:rgba(0, 0, 0, 0.322) 0.5px solid;}
-   textarea{height: 150px}
-   button{width: 150px;height: 50px;border: none;background-color:#f79d05;margin: 10px;color: white;border-radius: 5px;}
-}
-.map{width: 50%;}
-.error{color: red;}

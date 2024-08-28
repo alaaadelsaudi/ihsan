@@ -1,4 +1,5 @@
 import React from 'react';
+import './contactus.scss'
 import FirstSection from '../sections/FirstSection';
 import emailjs from '@emailjs/browser';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
@@ -80,6 +81,7 @@ export default function Contactus() {
           </div>
         </div>
       </div>
+       
       <div className='form-section'>
         <div className='form' >
           <h3>Send a Message</h3>
@@ -116,6 +118,10 @@ export default function Contactus() {
           ></iframe>
         </div>
       </div>
+      
+
+   
     </>
   );
 }
+   

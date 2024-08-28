@@ -1,24 +1,64 @@
-.first-section{
+.first-section {
     height: 80vh;
     width: 100%;
+    color: white;
+    position: relative;
+    touch-action: manipulation;
   
-color: white;
-
-position: relative;
-touch-action: manipulation;
-
-}
-.text{z-index: 9;width: 90%;text-align: center;position: absolute;
-    top: 50%;
-    left: 50%;
-    
-    transform: translate(-50%, -50%); 
-    border-radius: 5px;
-h2{font-size: 48px;
-    font-family: Philosopher ;
-    font-weight: 600;
-}
-a{
-    color: rgb(247, 157, 5);
-    text-decoration: none;
-}}
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.281),
+        rgba(0, 0, 0, 0.226)
+      ), url('../imges/services-head-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    .text {
+      z-index: 9;
+      width: 90%;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 5px;
+  
+      h2 {
+        font-size: 48px;
+        font-family: 'Philosopher', sans-serif;
+        font-weight: 600;
+        margin: 0;
+      }
+  
+      div {
+        margin-top: 20px;
+  
+        span {
+          display: block;
+          font-size: 16px;
+  
+          a {
+            color: rgb(247, 157, 5);
+            text-decoration: none;
+  
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  
+    @media (max-width: 768px) {
+      height: 60vh;
+  
+      .text {
+        width: 95%;
+  
+        h2 {
+          font-size: 36px;
+        }
+      }
+    }
+  }
+  

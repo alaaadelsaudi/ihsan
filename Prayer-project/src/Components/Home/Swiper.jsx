@@ -36,14 +36,35 @@ const swipreData=[
     para:'Moveth the seed you waters is replenish light one meat. Under divide image likeness their may, form Earth evening moving. Heaven was have upon god place dry one creepeth one days divided. For fruitful blessed void days seasons wherein dry She’d light creeping that grass, is rule rule. Waters midst i him lesser. Evening together  ...'
 },
 
-]
-export default function Swiper() 
+ ]
+ export default function Swiper() 
 { const settings = {
-    dots: false,
+    
     infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 1
+ 
+    slidesToShow: 2, // عدد الشرائح المعروضة في الشاشات الكبيرة
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2 // عدد الشرائح على الشاشات بين 768px و 1024px
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1 // عدد الشرائح على الشاشات بين 480px و 768px
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1 // عدد الشرائح على الشاشات أقل من 480px
+        }
+      }
+    ]
+    
   };
    
     return(
@@ -77,10 +98,4 @@ export default function Swiper()
 
 
 
-
-
-  
-
-  
- 
 
